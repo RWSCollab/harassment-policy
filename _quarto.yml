@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  reader-mode: false
+
+  title: "Conflict of Interest Policy"
+  site-url: "https://rwscollab.github.io/coi-policy/"
+  repo-url: https://github.com/RWSCollab/coi-policy
+  back-to-top-navigation: true
+
+  navbar:
+    background: light
+    logo: "/images/RWSC_Logo_notext.png"
+
+  sidebar:
+    style: "docked"
+    search: true
+    logo: "/images/logo7.png"
+    pinned: true
+    align: "center"
+    collapse-level: 2
+    contents:
+     - href: index.qmd#purpose
+       text: Purpose
+
+     - href: index.qmd#definitions
+       text: Definition and Application of Policy
+       
+     - href: index.qmd#notif
+       text: Notifications and Disclosure
+       
+     - href: index.qmd#contract
+       text: Contractually Related Conflicts of Interest
+
+  page-footer:
+    left: "&copy; CC-By-NC-ND RWSC Steering Committee, 2024"
+    right: <img src="/images/RWSC_Logo.png" width="125">
+
+  favicon: "/images/logo7.png"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - rwsc.scss
+    code-link: true
+    toc-title: "On this page"
+    author-meta: "Regional Wildlife Science Collaborative for Offshore Wind"
+    callout-appearance: simple
+    link-external-newwindow: true
+
+editor: visual
+
+filters:
+  - include-files.lua
+  - quarto
+
+
