@@ -1,1 +1,1 @@
-Sitemap: https://rwscollab.github.io/coi-policy/sitemap.xml
+Sitemap: https://rwscollab.github.io/harassment-policy/sitemap.xml

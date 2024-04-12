@@ -4,9 +4,9 @@ project:
 website:
   reader-mode: false
 
-  title: "Conflict of Interest Policy"
-  site-url: "https://rwscollab.github.io/coi-policy/"
-  repo-url: https://github.com/RWSCollab/coi-policy
+  title: "Harassment Policy"
+  site-url: "https://rwscollab.github.io/harassment-policy/"
+  repo-url: https://github.com/RWSCollab/harassment-policy
   back-to-top-navigation: true
 
   navbar:
@@ -24,14 +24,26 @@ website:
      - href: index.qmd#purpose
        text: Purpose
 
-     - href: index.qmd#definitions
-       text: Definition and Application of Policy
-       
-     - href: index.qmd#notif
-       text: Notifications and Disclosure
-       
-     - href: index.qmd#contract
-       text: Contractually Related Conflicts of Interest
+     - href: index.qmd#definition
+       text: Definition
+
+     - href: index.qmd#responsibility
+       text: Responsibility
+
+     - href: index.qmd#complaint
+       text: Complaint Process
+
+     - href: index.qmd#confidentiality
+       text: Confidentiality
+
+     - href: index.qmd#retaliation
+       text: Retaliation
+
+     - href: index.qmd#investigation
+       text: Investigation
+
+     - href: index.qmd#review
+       text: Complaint Review Process
 
   page-footer:
     left: "&copy; CC-By-NC-ND RWSC Steering Committee, 2024"
